@@ -1,0 +1,170 @@
+{
+  "entities": {
+    "User": {
+      "title": "User Profile",
+      "description": "User profile and settings information",
+      "type": "object",
+      "properties": {
+        "uid": {
+          "type": "string",
+          "description": "Unique identifier of the user matching request.auth.uid"
+        },
+        "email": {
+          "type": "string",
+          "format": "email",
+          "description": "Email address of the user"
+        },
+        "displayName": {
+          "type": "string",
+          "description": "Full name of the user"
+        },
+        "photoURL": {
+          "type": "string",
+          "description": "Avatar URL of the user"
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Timestamp when user profile was created"
+        }
+      },
+      "required": ["uid", "email", "createdAt"]
+    },
+    "Report": {
+      "title": "Civic Issue Report",
+      "description": "Municipal hazard and infrastructure issue reports",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique issue document ID"
+        },
+        "userId": {
+          "type": "string",
+          "description": "Identifier of the citizen who reported the issue"
+        },
+        "title": {
+          "type": "string",
+          "description": "Concise, professional title summarizing the issue"
+        },
+        "description": {
+          "type": "string",
+          "description": "Detailed description of the issue"
+        },
+        "issue_type": {
+          "type": "string",
+          "enum": ["pothole", "water_leak", "street_light_failure", "garbage_dump", "road_damage", "tree_fall", "drainage_issue", "other"],
+          "description": "The category of civic issue"
+        },
+        "severity": {
+          "type": "string",
+          "enum": ["low", "medium", "high"],
+          "description": "Hazard severity level"
+        },
+        "status": {
+          "type": "string",
+          "enum": ["open", "investigating", "assigned", "resolved"],
+          "description": "Current processing status in the municipal queue"
+        },
+        "confidence": {
+          "type": "number",
+          "description": "AI analysis confidence score (0.0 to 1.0)"
+        },
+        "location_hint": {
+          "type": "string",
+          "description": "Textual location hint or landmarks"
+        },
+        "coordinates": {
+          "type": "object",
+          "description": "GIS GPS coordinates of the issue",
+          "properties": {
+            "lat": { "type": "number" },
+            "lng": { "type": "number" }
+          },
+          "required": ["lat", "lng"]
+        },
+        "tags": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Keywords or tags associated with the report"
+        },
+        "assigned_department": {
+          "type": "string",
+          "description": "Assigned municipal team/department"
+        },
+        "user_text": {
+          "type": "string",
+          "description": "Original citizen text description input"
+        },
+        "user_image": {
+          "type": "string",
+          "description": "Base64 encoded or stored image of the issue"
+        },
+        "admin_notes": {
+          "type": "string",
+          "description": "Internal notes added by municipal operators"
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "ISO timestamp of creation"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "ISO timestamp of last update"
+        }
+      },
+      "required": [
+        "id",
+        "userId",
+        "title",
+        "description",
+        "issue_type",
+        "severity",
+        "status",
+        "confidence",
+        "coordinates",
+        "tags",
+        "assigned_department",
+        "createdAt",
+        "updatedAt"
+      ]
+    },
+    "SystemLog": {
+      "title": "System Log",
+      "description": "Traceability and telemetry logs for CivicMind operations",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique log document ID"
+        },
+        "timestamp": {
+          "type": "string",
+          "format": "date-time",
+          "description": "ISO timestamp of the event"
+        },
+        "message": {
+          "type": "string",
+          "description": "The logged operational message"
+        }
+      },
+      "required": ["id", "timestamp", "message"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": "User",
+      "description": "User profiles accessed by UID"
+    },
+    "/reports/{reportId}": {
+      "schema": "Report",
+      "description": "Municipal issue reports"
+    },
+    "/system_logs/{logId}": {
+      "schema": "SystemLog",
+      "description": "Telemetry database logs"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "CivicMind Understanding Agent",
+  "description": "Production-grade senior multimodal AI system for municipal issue detection. Analyzes image, text, and voice transcript inputs to generate structured, high-precision civic issue reports.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
