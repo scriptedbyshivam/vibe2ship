@@ -323,7 +323,7 @@ We have a massive vision for CivicMind. Post-hackathon, we plan to implement:
 
 | Avatar | Name | Role | GitHub | LinkedIn |
 | :---: | :---: | :---: | :---: | :---: |
-| <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Alex" width="50"> | [Your Name] | Full Stack / AI Lead | [@githubhandle](https://github.com) | [LinkedIn](https://linkedin.com) |
+| <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Alex" width="50"> | Shivam Maurya | Full Stack / AI Lead | [@scriptedbyshivam](https://github.com/scriptedbyshivam) | [LinkedIn](https://linkedin.com) |
 | <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Sam" width="50"> | [Teammate 2] | Frontend & UX | [@githubhandle](https://github.com) | [LinkedIn](https://linkedin.com) |
 | <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Jordan" width="50"> | [Teammate 3] | Backend & Cloud | [@githubhandle](https://github.com) | [LinkedIn](https://linkedin.com) |
 
@@ -336,8 +336,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📫 Contact
 For any inquiries, feedback, or collaboration opportunities:
-- **Email:** hello@civicmind.ai
-- **Website:** [www.civicmind.ai](http://www.civicmind.ai)
+- **Email:** shivam2024maurya@gmail.com
+- **Website:** [https://civicmind-understanding-agent-229084139257.asia-southeast1.run.app](https://civicmind-understanding-agent-229084139257.asia-southeast1.run.app)
 
 <div align="center">
 <br>
