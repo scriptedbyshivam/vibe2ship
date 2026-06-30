@@ -15,9 +15,9 @@
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Material UI](https://img.shields.io/badge/Material_UI-0081CB?style=for-the-badge&logo=mui&logoColor=white)
 
-Built for the Google AI Hackathon 2026 under the theme **AI for Smart Cities**.
+Built for the Google AI Hackathon 2026 under the theme **AI for Smart Cities**, majorly utilizing Google AI Studio.
 
-[Live Demo](#) • [Video Presentation](#) • [Documentation](#) • [Report Bug](#)
+[Live Demo](https://civicmind-understanding-agent-229084139257.asia-southeast1.run.app) • [Video Presentation](#) • [Documentation](#) • [Report Bug](#)
 
 </div>
 
@@ -231,11 +231,19 @@ CivicMind/
 
 ## 📸 Screenshots
 
-| Landing Page | Citizen Dashboard |
+| Landing Page | Authentication |
 | :---: | :---: |
-| <img src="https://via.placeholder.com/600x350/1A202C/FFFFFF?text=Landing+Page+Screenshot" width="100%"> | <img src="https://via.placeholder.com/600x350/1A202C/FFFFFF?text=Citizen+Dashboard+Screenshot" width="100%"> |
-| **Officer Triaging Dashboard** | **AI Processing & Maps** |
-| <img src="https://via.placeholder.com/600x350/1A202C/FFFFFF?text=Officer+Dashboard+Screenshot" width="100%"> | <img src="https://via.placeholder.com/600x350/1A202C/FFFFFF?text=Interactive+Maps+%26+AI+Analysis" width="100%"> |
+| <img src="assets/image/screenshot_1.png" width="100%"> | <img src="assets/image/screenshot_2.png" width="100%"> |
+| **Citizen Dashboard** | **Report Issue Form** |
+| <img src="assets/image/screenshot_3.png" width="100%"> | <img src="assets/image/screenshot_4.png" width="100%"> |
+| **Interactive Map View** | **Issue Details (AI Analysis)** |
+| <img src="assets/image/screenshot_5.png" width="100%"> | <img src="assets/image/screenshot_6.png" width="100%"> |
+| **Officer Dashboard** | **Notifications Hub** |
+| <img src="assets/image/screenshot_7.png" width="100%"> | <img src="assets/image/screenshot_8.png" width="100%"> |
+| **AI Triaging Details** | **Platform Settings & Theme** |
+| <img src="assets/image/screenshot_9.png" width="100%"> | <img src="assets/image/screenshot_10.png" width="100%"> |
+| **Demo Application Home** | |
+| <img src="assets/image/screenshot_11.png" width="100%"> | |
 
 ---
 
@@ -254,43 +262,31 @@ cd CivicMind
 ```
 
 ### 2. Install Dependencies
-Install dependencies for both client and server:
+Install the required Node.js packages in the project root:
 ```bash
-# Install Server dependencies
-cd server
-npm install
-
-# Install Client dependencies
-cd ../client
 npm install
 ```
 
 ### 3. Setup Environment Variables
-Navigate to the `server/` directory and rename `.env.example` to `.env`. Update the values with your credentials (see [Environment Variables](#-environment-variables) section below).
+Create a `.env` file in the root directory by copying `.env.example` and filling in your credentials.
+
+> [!IMPORTANT]
+> You must add your own `GEMINI_API_KEY` in the `.env` file to use the AI capabilities of this project.
 
 ### 4. Run the Application
-You can run the frontend and backend concurrently.
-
-**Terminal 1 (Backend):**
+Start the development server (runs both backend API and frontend Vite middleware on port 3000):
 ```bash
-cd server
 npm run dev
-```
-
-**Terminal 2 (Frontend):**
-```bash
-cd client
-npm start
 ```
 The application will be running at `http://localhost:3000`.
 
 ---
 
 ## 🔐 Environment Variables
-Create a `.env` file in the server directory with the following structure:
+Create a `.env` file in the project root directory with the following structure:
 ```env
 # Server Configuration
-PORT=5000
+PORT=3000
 NODE_ENV=development
 
 # Database
@@ -318,8 +314,7 @@ We have a massive vision for CivicMind. Post-hackathon, we plan to implement:
 ---
 
 ## 🌐 Deployment
-- **Live Demo:** [https://civicmind-demo.web.app](https://civicmind-demo.web.app) (Placeholder)
-- **Google Cloud Run API:** [https://api.civicmind.run.app](https://api.civicmind.run.app) (Placeholder)
+- **Live Demo (Google Cloud Run):** [https://civicmind-understanding-agent-229084139257.asia-southeast1.run.app](https://civicmind-understanding-agent-229084139257.asia-southeast1.run.app)
 - **Video Presentation:** [YouTube Link](https://youtube.com) (Placeholder)
 
 ---
