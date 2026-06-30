@@ -15,7 +15,7 @@
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Material UI](https://img.shields.io/badge/Material_UI-0081CB?style=for-the-badge&logo=mui&logoColor=white)
 
-Built for the Google AI Hackathon 2026 under the theme **AI for Smart Cities**, majorly utilizing Google AI Studio.
+Built for the Vibe2Ship Hackathon 2026 under the theme **AI for Smart Cities**, majorly utilizing Google AI Studio.
 
 [Live Demo](https://civicmind-understanding-agent-229084139257.asia-southeast1.run.app) • [Documentation](https://docs.google.com/document/d/1ngnR-ALoRkE8lDMmZpl-nvosxxZiaHVWd97iNzGl6xY/edit?usp=sharing)
 
@@ -337,5 +337,5 @@ For any inquiries, feedback, or collaboration opportunities:
 
 <div align="center">
 <br>
-<i>Crafted with ❤️ for the Google AI Hackathon 2026</i>
+<i>Crafted with ❤️ for the Vibe2Ship Hackathon 2026</i>
 </div>
