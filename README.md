@@ -17,7 +17,7 @@
 
 Built for the Google AI Hackathon 2026 under the theme **AI for Smart Cities**, majorly utilizing Google AI Studio.
 
-[Live Demo](https://civicmind-understanding-agent-229084139257.asia-southeast1.run.app) • [Documentation](#)
+[Live Demo](https://civicmind-understanding-agent-229084139257.asia-southeast1.run.app) • [Documentation](https://docs.google.com/document/d/1ngnR-ALoRkE8lDMmZpl-nvosxxZiaHVWd97iNzGl6xY/edit?usp=sharing)
 
 </div>
 
