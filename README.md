@@ -3,7 +3,7 @@
 # 🏛️ CivicMind
 ### AI-Powered Smart Civic Issue Reporting & Resolution Platform
 
-![Vibe2Ship Hackathon 2026](https://img.shields.io/badge/Google_AI_Hackathon-2026-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![Vibe2Ship Hackathon 2026](https://img.shields.io/badge/Vibe2Ship_Hackathon-2026-4285F4?style=for-the-badge&logo=google&logoColor=white)
 ![License MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)
 
