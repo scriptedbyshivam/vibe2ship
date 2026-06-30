@@ -17,7 +17,7 @@
 
 Built for the Google AI Hackathon 2026 under the theme **AI for Smart Cities**, majorly utilizing Google AI Studio.
 
-[Live Demo](https://civicmind-understanding-agent-229084139257.asia-southeast1.run.app) • [Video Presentation](#) • [Documentation](#) • [Report Bug](#)
+[Live Demo](https://civicmind-understanding-agent-229084139257.asia-southeast1.run.app) • [Documentation](#) • [Report Bug](#)
 
 </div>
 
@@ -25,6 +25,7 @@ Built for the Google AI Hackathon 2026 under the theme **AI for Smart Cities**, 
 
 ## 📖 Table of Contents
 - [Project Overview](#-project-overview)
+- [Google AI Studio Integration](#-google-ai-studio-integration)
 - [Hackathon Requirements (Judges' Guide)](#-hackathon-requirements-judges-guide)
 - [Key Features](#-key-features)
 - [Google Technologies Utilized](#-google-technologies-utilized)
@@ -52,6 +53,9 @@ Traditional civic reporting systems are fundamentally broken. They are plagued b
 CivicMind is a hyperlocal problem solver that transforms how communities report, process, and resolve infrastructure issues. By leveraging state-of-the-art Artificial Intelligence (Google Gemini), CivicMind automatically analyzes submitted reports (text, voice, or image), categorizes them, assigns a severity score, and routes them to the correct municipal department—all in real-time.
 
 We bring transparency, speed, and intelligence to smart city management.
+
+### 🛠️ Google AI Studio Integration
+This project was prototyped, built, and optimized primarily using Google AI Studio. System instructions, multimodal image analysis logic, and structured JSON output schemas for the Gemini API were thoroughly developed and tested within Google AI Studio. This enabled rapid iteration and validation of model prompts before integrating them into the backend server.
 
 ---
 
@@ -242,8 +246,6 @@ CivicMind/
 | <img src="assets/image/screenshot_7.png" width="100%"> | <img src="assets/image/screenshot_8.png" width="100%"> |
 | **AI Triaging Details** | **Platform Settings & Theme** |
 | <img src="assets/image/screenshot_9.png" width="100%"> | <img src="assets/image/screenshot_10.png" width="100%"> |
-| **Demo Application Home** | |
-| <img src="assets/image/screenshot_11.png" width="100%"> | |
 
 ---
 
@@ -315,22 +317,20 @@ We have a massive vision for CivicMind. Post-hackathon, we plan to implement:
 
 ## 🌐 Deployment
 - **Live Demo (Google Cloud Run):** [https://civicmind-understanding-agent-229084139257.asia-southeast1.run.app](https://civicmind-understanding-agent-229084139257.asia-southeast1.run.app)
-- **Video Presentation:** [YouTube Link](https://youtube.com) (Placeholder)
 
 ---
 
 ## 👥 Team
+This is an individual project built entirely by:
 
 | Avatar | Name | Role | GitHub | LinkedIn |
 | :---: | :---: | :---: | :---: | :---: |
 | <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Alex" width="50"> | Shivam Maurya | Full Stack / AI Lead | [@scriptedbyshivam](https://github.com/scriptedbyshivam) | [LinkedIn](https://linkedin.com) |
-| <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Sam" width="50"> | [Teammate 2] | Frontend & UX | [@githubhandle](https://github.com) | [LinkedIn](https://linkedin.com) |
-| <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Jordan" width="50"> | [Teammate 3] | Backend & Cloud | [@githubhandle](https://github.com) | [LinkedIn](https://linkedin.com) |
 
 ---
 
 ## 📄 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for the full license text.
 
 ---
 
