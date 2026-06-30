@@ -17,7 +17,7 @@
 
 Built for the Google AI Hackathon 2026 under the theme **AI for Smart Cities**, majorly utilizing Google AI Studio.
 
-[Live Demo](https://civicmind-understanding-agent-229084139257.asia-southeast1.run.app) • [Documentation](#) • [Report Bug](#)
+[Live Demo](https://civicmind-understanding-agent-229084139257.asia-southeast1.run.app) • [Documentation](#)
 
 </div>
 
@@ -38,7 +38,7 @@ Built for the Google AI Hackathon 2026 under the theme **AI for Smart Cities**, 
 - [Environment Variables](#-environment-variables)
 - [Future Improvements](#-future-improvements)
 - [Deployment](#-deployment)
-- [Team](#-team)
+- [Made By](#-made-by)
 - [License](#-license)
 - [Contact](#-contact)
 
@@ -320,12 +320,8 @@ We have a massive vision for CivicMind. Post-hackathon, we plan to implement:
 
 ---
 
-## 👥 Team
-This is an individual project built entirely by:
-
-| Avatar | Name | Role | GitHub | LinkedIn |
-| :---: | :---: | :---: | :---: | :---: |
-| <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Alex" width="50"> | Shivam Maurya | Full Stack / AI Lead | [@scriptedbyshivam](https://github.com/scriptedbyshivam) | [LinkedIn](https://linkedin.com) |
+## 🧑‍💻 Made By
+Built with ❤️ by **Shivam Maurya** ([@scriptedbyshivam](https://github.com/scriptedbyshivam)).
 
 ---
 
